@@ -15,11 +15,26 @@
     },
     "profiles": [
       {
+        "network": "Personal Site",
+        "url": "https://www.vinodhravi.com"
+      },
+      {
         "network": "LinkedIn",
         "url": "https://www.linkedin.com/in/vinodh-ravi/"
       }
     ]
   },
+  "summary": [
+    {
+      "highlights" :[
+        "A global technology executive with a hands-on management style that is focused on producing results within aggressive timelines.",
+        "Demonstrated ability to direct and execute plans with consistent productivity from a 80-member team, by managing technology budgets of more than $75M.",
+        "An accomplished leader with a track record of success in leading transformation initiatives, identifying and hiring genuine talent, and building productive teams.",
+        "Reliable in providing scalable technology solutions and driving complex change initiatives across diverse employee populations."
+      ]
+    }
+
+  ],
   "work": [
     {
       "company": "PNC",
@@ -29,12 +44,73 @@
       "endDate": "current",
       "summary": "",
       "highlights": [
-        "Provide a safe way for developers to deploy cloud native micro services in containerized production environments without affecting real users.",
+        "Provide a safe way for developers and operators to deploy cloud native micro services in containerized production environments without affecting real users.",
         "Build a fast and easy-to-use query service for large scale event data.",
-	"Launch a platform to measure service availability, uptime, outages and to run blameless postmortems.",
-	"Create tactical and strategic solutions to allow for efficient management of Ingress controller configurations across Openshift K8s clusters.",
-	"Improve service reliability and application SLOs by leveraging to manage modernized apps deployed as microservices.",
-	"Instrumental in rolling out Mattermost (persistent chat software) to help in the build out of an enterprise Chatops platform."
+	      "Launch a product to measure service availability, uptime, outages and to run blameless postmortems."
+      ]
+    },
+    {
+      "company": "PNC",
+      "position": "VP, Technology Infrastructure (Infrastructure Automation)",
+      "website": "",
+      "startDate": "2017",
+      "endDate": "2019",
+      "summary": "",
+      "highlights": [
+        "Reduced time to market by 50% through developer uplift and infrastructure environment build automation.",
+	      "Created simplified developer experiences (UI/API) to manage virtual, container and cloud-native provisioning workloads.",
+	      "Reduced operational spending by 30% by introducing the adoption of open-source tools and promoting a culture of internal product development.",
+	      "Designed access control policies in collaboration with stakeholders in Enterprise Architecture and CyberSecurity."
+      ]
+    },
+    {
+      "company": "VISA",
+      "position": "Lead Systems Engineer",
+      "website": "",
+      "startDate": "2012",
+      "endDate": "2016",
+      "summary": "",
+      "highlights": [
+        "Implemented a distributed system framework to orchestrate the server provisioning and configuration management of Linux and Windows instances.",
+        "Create logging and reporting facilities to analyze application bottlenecks, create incident responses and notifications, feed data to capacity planning systems for real time decisioning and prevent potential failures.",
+	      "Developed APIs to manage authorization for Self Service Automation using Platform Permission Sets within OIM.",
+	      "Acted as a Change Agent by providing leadership and direction to junior team members."
+      ]
+    },
+    {
+      "company": "HP Software Services",
+      "position": "Technology Consultant",
+      "website": "",
+      "startDate": "2011",
+      "endDate": "2011",
+      "summary": "",
+      "highlights": [
+        "Developed complex work flows to manage customer self-service apps, cross-authentication, automation and monitoring.",
+        "Developed web services based interfaces to automate events related to incident, change management and problem management."
+      ]
+    },
+    {
+      "company": "Xinify/Digital Celerity",
+      "position": "Practice Lead",
+      "website": "",
+      "startDate": "2005",
+      "endDate": "2010",
+      "summary": "",
+      "highlights": [
+        "Established globally distributed cross functional teams to deliver high quality CA Clarity product extensions.",
+        "Developed ERP integration offerings on CA Clarity’s on-Demand platform."
+      ]
+    },
+    {
+      "company": "General Motors, Onstar R&D",
+      "position": "Sr Technologist",
+      "website": "",
+      "startDate": "2001",
+      "endDate": "2004",
+      "summary": "",
+      "highlights": [
+        "Lead the design of the system specification for the telematics middleware, communication and management infrastructure to support downloadable apps and services.",
+        "Key contributor to the design of the Onstar Low Cost Platform."
       ]
     }
   ],
@@ -47,46 +123,119 @@
       "startDate": "1993 ",
       "endDate": " 1997",
       "courses": []
+    },
+    {
+      "institution": "National Institute of Information Technology, Chennai, India",
+      "area": "Network Centered Computing",
+      "studyType": "Advanced Diploma",
+      "startDate": "1997 ",
+      "endDate": " 1998",
+      "courses": []
+    }
+  ],
+  "certificates" : [
+    {
+      "institution" : "Prof. Daphne Koller, Stanford University",
+      "course" : "Probabilistic Graphical Models",
+      "endDate" : "2006"
+    },
+    {
+      "institution" : "UCSD, Coursera",
+      "course" : "Algorithmic Toolbox",
+      "endDate" : "2016"
     }
   ],
   "awards": [],
-  "publications": [],
-  "skills": [
+  "patents": [
     {
-      "name": "Web Development",
-      "level": "",
-      "keywords": [
-        "ReactJS",
-        "HTML",
-        "CSS",
-        "Javascript"
+      "title" : "System and Method for personalized access to vehicle data services through portals.",
+      "authors" : [
+        "Steven J. Ross", 
+        "Stephen C. Habermas", 
+        "Vinodh C. Ravi", 
+        "Jeffrey G. Ravas"
       ]
     },
     {
-      "name": "Mobile Apps",
-      "level": "",
-      "keywords": [
-        "Android",
-        "iOS"
-      ]
-    },
-    {
-      "name": "Other Languages",
-      "level": "",
-      "keywords": [
-        "Golang",
-        "Java",
-        "Python",
-        "C",
-        "C++"
+      "title" : "Method and System for providing flexible vehicle communication within a vehicle communication system.",
+      "authors" : [
+        "Ross, Steven J", 
+        "Habermas, Stephen C",
+        "Ravi, Vinodh C"
       ]
     }
   ],
-  "languages": [
+  "skills": [
     {
-      "language": "English",
-      "fluency": "Native speaker"
+      "name": "Develop high performing teams.",
+      "level": "Excellent"
+    },
+    {
+      "name": "Product management for Internal Platforms.",
+      "level": "Excellent"
+    },
+    {
+      "name": "Cloud aware application development.",
+      "level": "Very Good"
+    },
+    {
+      "name": "Declarative GitOps CI/CD.",
+      "level": "Excellent"
+    },
+    {
+      "name": "Site Reliability Engineering.",
+      "level": "Very Good"
+    },
+    {
+      "name": "Manage Enterprise scale projects.",
+      "level": "Very Good"
     }
+  ],
+  "stacks" : [
+    {
+      "name" : "Languages",
+      "keywords" : [
+        "Python",
+        "Golang",
+        "Java"
+      ]
+    },
+    {
+      "name" : "Infrastructure",
+      "keywords" : [
+        "Kubernetes",
+        "Tekton",
+        "ArgoCD",
+        "Bitbucket"
+      ]
+    },
+    {
+      "name" : "Observability",
+      "keywords" : [
+        "Humio",
+        "OpenTelemetry",
+        "DynaTrace",
+        "Prometheus",
+        "SyslogNG"
+      ]
+    },
+    {
+      "name" : "Messaging & Streaming",
+      "keywords" : [
+        "Kafka",
+        "Rabbit MQ",
+        "Redis"
+      ]
+    },
+    {
+      "name" : "Persistence",
+      "keywords" : [
+        "Redis Graph",
+        "MySQL",
+        "MongoDB"
+      ]
+    }
+
   ],
   "interests": [],
   "references": []

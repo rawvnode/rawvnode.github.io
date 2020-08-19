@@ -202,6 +202,20 @@
     </div>
     <div class='sectionLine'></div>
 
+    <div id='skills' class="sectionBlock">
+      <div class='sectionName'>
+        <span>CORE SKILLS</span>
+      </div>
+      <div class='sectionContent'>
+        {{ range .skills }}
+        <div class='skillBlock'>
+          <span>{{ .name }}: </span>
+          <span> <b>{{ .level }}</b> </span>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+    <div class='sectionLine'></div>
 
     <div id='workBlock' class="sectionBlock">
       <div class='sectionName'>
@@ -231,37 +245,12 @@
     </div>
     <div class='sectionLine'></div>
 
-
-
-
-    <div id='education' class="sectionBlock">
+    <div id='stacks' class="sectionBlock">
       <div class='sectionName'>
-        <span>EDUCATION</span>
+        <span>ENGINEERING STACKS</span>
       </div>
       <div class='sectionContent'>
-        {{ range .education }}
-        <div class='educationBlock'>
-          <span class='title'>
-            {{ .institution }}
-          </span>
-          <span class='date'>
-            {{ .startDate }} &mdash; {{ .endDate }}
-          </span>
-          <div class=''>
-            {{ .studyType }} - {{ .area }}, GPA: {{ .gpa }}
-          </div>
-        </div>
-        {{ end }}
-      </div>
-    </div>
-    <div class='sectionLine'></div>
-
-    <div id='skills' class="sectionBlock">
-      <div class='sectionName'>
-        <span>SKILLS</span>
-      </div>
-      <div class='sectionContent'>
-        {{ range .skills }}
+        {{ range .stacks }}
         <div class='skillBlock'>
           <span class='title'>{{ .name }}:</span>
           {{ range $i, $k := .keywords -}}
@@ -271,6 +260,66 @@
         {{ end }}
       </div>
     </div>
+    <div class='sectionLine'></div>
+
+    <div id='patents' class="sectionBlock">
+      <div class='sectionName'>
+        <span>PATENTS</span>
+      </div>
+      <div class='sectionContent'>
+        {{ range .patents }}
+        <div class='skillBlock'>
+          <span>{{ .title }} - </span>
+          {{ range $i, $k := .authors -}}
+          {{- if $i}}, {{ end }}<span><i>{{ $k }}</i></span>
+          {{- end }}
+        </div>
+        {{ end }}
+      </div>
+    </div>
+    <div class='sectionLine'></div>
+
+    <div id='education' class="sectionBlock">
+      <div class='sectionName'>
+        <span>EDUCATION</span>
+      </div>
+      <div class='sectionContent'>
+        {{ range .education }}
+        <div class='educationBlock'>
+          <span class='title'>
+            {{ .studyType }} - {{ .area }}
+          </span>
+          <span class='date'>
+            {{ .startDate }} &mdash; {{ .endDate }}
+          </span>
+          <div class=''>
+            {{ .institution }}          
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+    <div class='sectionLine'></div>
+
+    <div id='certificates' class="sectionBlock">
+      <div class='sectionName'>
+        <span>CERTIFICATES</span>
+      </div>
+      <div class='sectionContent'>
+        {{ range .certificates }}
+        <div class='educationBlock'>
+          <span>
+            {{ .course }} - {{ .institution }}
+          </span>
+          <span class='date'>
+            {{ .endDate }}
+          </span>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+    <div class='sectionLine'></div>
+
 </body>
 
 </html>
