@@ -175,12 +175,12 @@
       "level": "Excellent"
     },
     {
-      "name": "Cloud aware application development.",
-      "level": "Very Good"
-    },
-    {
       "name": "Declarative GitOps CI/CD.",
       "level": "Excellent"
+    },
+    {
+      "name": "Cloud aware application development.",
+      "level": "Very Good"
     },
     {
       "name": "Site Reliability Engineering.",
