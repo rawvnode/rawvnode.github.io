@@ -234,6 +234,15 @@
         "MySQL",
         "MongoDB"
       ]
+    },
+    {
+      "name" : "Experimental/Small Scale",
+      "keywords" : [
+        "Clickhouse",
+        "CockroachDB",
+        "NiFi",
+        "Spark"
+      ]
     }
 
   ],
