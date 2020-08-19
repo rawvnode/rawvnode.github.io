@@ -309,11 +309,14 @@
         {{ range .certificates }}
         <div class='educationBlock'>
           <span>
-            {{ .course }} - {{ .institution }}
+            {{ .course }}
           </span>
           <span class='date'>
             {{ .endDate }}
           </span>
+          <div class=''>
+            <b>{{ .institution }}</b>
+          </div>
         </div>
         {{ end }}
       </div>
