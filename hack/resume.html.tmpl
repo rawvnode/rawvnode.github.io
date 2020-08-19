@@ -6,7 +6,7 @@
   <meta charset='utf-8'>
   <meta name='viewport' content='width=device-width, user-scalable=no, minimal-ui'>
 
-  <title>Vinodh Ravi</title>
+  <title>{{ .basics.name }}</title>
 
   <style>
     body {
@@ -121,7 +121,7 @@
       page-break-inside: avoid;
     }
 
-     
+    /* Media Queries */
     @media only screen and (max-width: 40em) {
       body {
         margin: 0;
@@ -180,24 +180,24 @@
   <div id='resume'>
     <div id='nameBlock' class='largeFont'>
       <span class='name'>
-        Vinodh Ravi
+        {{ .basics.name }}
       </span>
     </div>
     <div id='basicsBlock' class='smallFont'>
       <div class='contactBlock'>
-        <span class='email'>vinodh.ravi@gmail.com</span>
+        <span class='email'>{{ .basics.email }}</span>
         <span class='divider'>|</span>
         <span class='address'>
-          Austin, Texas, US
+          {{ .basics.location.city }}, {{ .basics.location.region }}, {{ .basics.location.countryCode }}
         </span>
       </div>
       <div id='profilesBlock'>
-        
-        
+        {{ range $i, $p := .basics.profiles }}
+        {{ if $i }}<span class='divider'>|</span>{{ end }}
         <span class='url'>
-          <a href='https://www.linkedin.com/in/vinodh-ravi/'>LinkedIn</a>
+          <a href='{{ $p.url }}'>{{ $p.network }}</a>
         </span>
-        
+        {{ end }}
       </div>
     </div>
     <div class='sectionLine'></div>
@@ -208,35 +208,25 @@
         <span>EXPERIENCE</span>
       </div>
       <div class='sectionContent'>
-        
-        
+        {{ range $i, $w := .work }}
+        {{ if $i }}<div class='separator'></div>{{ end }}
         <div class="jobBlock">
           <div class='blockHeader'>
             <span class='title'>
-              PNC, SVP, Technology Infrastructure (SRE)
+              {{ $w.company }}, {{ $w.position }}
             </span>
             <span class='date'>
-              March 2019 &mdash; current
+              {{ $w.startDate }} &mdash; {{ $w.endDate }}
             </span>
           </div>
           <div><a href=''></a></div>
           <ul class='highlights'>
-            
-            <li> Provide a safe way for developers to deploy cloud native micro services in containerized production environments without affecting real users.</li>
-            
-            <li> Build a fast and easy-to-use query service for large scale event data.</li>
-            
-            <li> Launch a platform to measure service availability, uptime, outages and to run blameless postmortems.</li>
-            
-            <li> Create tactical and strategic solutions to allow for efficient management of Ingress controller configurations across Openshift K8s clusters.</li>
-            
-            <li> Improve service reliability and application SLOs by leveraging to manage modernized apps deployed as microservices.</li>
-            
-            <li> Instrumental in rolling out Mattermost (persistent chat software) to help in the build out of an enterprise Chatops platform.</li>
-            
+            {{ range $w.highlights }}
+            <li> {{ . }}</li>
+            {{ end }}
           </ul>
         </div>
-        
+        {{ end }}
       </div>
     </div>
     <div class='sectionLine'></div>
@@ -249,19 +239,19 @@
         <span>EDUCATION</span>
       </div>
       <div class='sectionContent'>
-        
+        {{ range .education }}
         <div class='educationBlock'>
           <span class='title'>
-            University of Madras
+            {{ .institution }}
           </span>
           <span class='date'>
-            1993  &mdash;  1997
+            {{ .startDate }} &mdash; {{ .endDate }}
           </span>
           <div class=''>
-            B.S. - Mechanical Engineering, GPA: 
+            {{ .studyType }} - {{ .area }}, GPA: {{ .gpa }}
           </div>
         </div>
-        
+        {{ end }}
       </div>
     </div>
     <div class='sectionLine'></div>
@@ -271,22 +261,14 @@
         <span>SKILLS</span>
       </div>
       <div class='sectionContent'>
-        
+        {{ range .skills }}
         <div class='skillBlock'>
-          <span class='title'>Web Development:</span>
-          <span>ReactJS</span>, <span>HTML</span>, <span>CSS</span>, <span>Javascript</span>
+          <span class='title'>{{ .name }}:</span>
+          {{ range $i, $k := .keywords -}}
+          {{- if $i}}, {{ end }}<span>{{ $k }}</span>
+          {{- end }}
         </div>
-        
-        <div class='skillBlock'>
-          <span class='title'>Mobile Apps:</span>
-          <span>Android</span>, <span>iOS</span>
-        </div>
-        
-        <div class='skillBlock'>
-          <span class='title'>Other Languages:</span>
-          <span>Golang</span>, <span>Java</span>, <span>Python</span>, <span>C</span>, <span>C&#43;&#43;</span>
-        </div>
-        
+        {{ end }}
       </div>
     </div>
 </body>

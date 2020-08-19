@@ -1,0 +1,93 @@
+{
+  "basics": {
+    "name": "Vinodh Ravi",
+    "label": "",
+    "picture": "",
+    "email": "vinodh.ravi@gmail.com",
+    "phone": "",
+    "website": "https://www.vinodhravi.com",
+    "summary": "",
+    "location": {
+      "postalCode": "78756",
+      "city": "Austin",
+      "countryCode": "US",
+      "region": "Texas"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "url": "https://www.linkedin.com/in/vinodh-ravi/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "PNC",
+      "position": "SVP, Technology Infrastructure (SRE)",
+      "website": "",
+      "startDate": "March 2019",
+      "endDate": "current",
+      "summary": "",
+      "highlights": [
+        "Provide a safe way for developers to deploy cloud native micro services in containerized production environments without affecting real users.",
+        "Build a fast and easy-to-use query service for large scale event data.",
+	"Launch a platform to measure service availability, uptime, outages and to run blameless postmortems.",
+	"Create tactical and strategic solutions to allow for efficient management of Ingress controller configurations across Openshift K8s clusters.",
+	"Improve service reliability and application SLOs by leveraging to manage modernized apps deployed as microservices.",
+	"Instrumental in rolling out Mattermost (persistent chat software) to help in the build out of an enterprise Chatops platform."
+      ]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "University of Madras",
+      "area": "Mechanical Engineering",
+      "studyType": "B.S.",
+      "startDate": "1993 ",
+      "endDate": " 1997",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "",
+      "keywords": [
+        "ReactJS",
+        "HTML",
+        "CSS",
+        "Javascript"
+      ]
+    },
+    {
+      "name": "Mobile Apps",
+      "level": "",
+      "keywords": [
+        "Android",
+        "iOS"
+      ]
+    },
+    {
+      "name": "Other Languages",
+      "level": "",
+      "keywords": [
+        "Golang",
+        "Java",
+        "Python",
+        "C",
+        "C++"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [],
+  "references": []
+}
