@@ -136,7 +136,8 @@
   "certificates" : [
     {
       "institution" : "Prof. Jeremy Howard, USF",
-      "course" : "Deep Learning with https://www.fast.ai/ Part I",
+      "course" : "Deep Learning with ",
+      "url" : "https://www.fast.ai/",
       "endDate" : "2020"
     },
     {
