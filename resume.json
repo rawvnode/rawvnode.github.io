@@ -135,14 +135,19 @@
   ],
   "certificates" : [
     {
-      "institution" : "Prof. Daphne Koller, Stanford University",
-      "course" : "Probabilistic Graphical Models",
-      "endDate" : "2006"
+      "institution" : "Prof. Jeremy Howard, USF",
+      "course" : "Deep Learning with https://www.fast.ai/ Part I",
+      "endDate" : "2020"
     },
     {
       "institution" : "UCSD, Coursera",
       "course" : "Algorithmic Toolbox",
       "endDate" : "2016"
+    },
+    {
+      "institution" : "Prof. Daphne Koller, Stanford University",
+      "course" : "Probabilistic Graphical Models",
+      "endDate" : "2006"
     }
   ],
   "awards": [],
@@ -246,6 +251,16 @@
     }
 
   ],
-  "interests": [],
+  "interests": [
+    {
+      "title" : "Chaos Engineering, Game Days & Psychological Safety"
+    },
+    {
+      "title" : "Unix Philosophy of simple and composable tools like https://k14s.io/"
+    },
+    {
+      "title" : "BCI, Mind Uploading and Works of Santiago Ramón y Cajal"
+    }
+  ],
   "references": []
 }

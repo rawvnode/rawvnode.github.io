@@ -145,6 +145,7 @@
 
       .sectionName {
         width: auto;
+        padding: 2px;
       }
 
       .largeFont {
@@ -204,7 +205,7 @@
 
     <div id='skills' class="sectionBlock">
       <div class='sectionName'>
-        <span>CORE SKILLS</span>
+        <span>CORE SKILLS </span>
       </div>
       <div class='sectionContent'>
         {{ range .skills }}
@@ -264,7 +265,7 @@
 
     <div id='patents' class="sectionBlock">
       <div class='sectionName'>
-        <span>PATENTS</span>
+        <span>PATENTS </span>
       </div>
       <div class='sectionContent'>
         {{ range .patents }}
@@ -317,6 +318,22 @@
           <div class=''>
             <b>{{ .institution }}</b>
           </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+    <div class='sectionLine'></div>
+
+    <div id='interests' class="sectionBlock">
+      <div class='sectionName'>
+        <span>INTERESTS </span>
+      </div>
+      <div class='sectionContent'>
+        {{ range .interests }}
+        <div class='educationBlock'>
+          <span>
+            <i>{{ .title }}<i>
+          </span>
         </div>
         {{ end }}
       </div>
