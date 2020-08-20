@@ -172,27 +172,27 @@
   ],
   "skills": [
     {
-      "name": "Develop high performing teams.",
+      "name": "Develop high performing teams",
       "level": "Excellent"
     },
     {
-      "name": "Product management for Internal Platforms.",
+      "name": "Product management for Internal Platforms",
       "level": "Excellent"
     },
     {
-      "name": "Declarative GitOps CI/CD.",
+      "name": "Declarative GitOps CI/CD",
       "level": "Excellent"
     },
     {
-      "name": "Cloud aware application development.",
+      "name": "Cloud aware application development",
       "level": "Very Good"
     },
     {
-      "name": "Site Reliability Engineering.",
+      "name": "Site Reliability Engineering",
       "level": "Very Good"
     },
     {
-      "name": "Manage Enterprise scale projects.",
+      "name": "Manage Enterprise scale projects",
       "level": "Very Good"
     }
   ],
@@ -253,13 +253,13 @@
   ],
   "interests": [
     {
-      "title" : "Chaos Engineering, Game Days & Psychological Safety"
+      "title" : "Chaos Engineering, Game Days & Psychological Safety."
     },
     {
-      "title" : "Unix Philosophy of simple and composable tools like https://k14s.io/"
+      "title" : "Unix Philosophy of simple and composable tools e.g. https://k14s.io/"
     },
     {
-      "title" : "BCI, Mind Uploading and Works of Santiago Ramón y Cajal"
+      "title" : "BCI, Mind Uploading and Works of Santiago Ramón y Cajal."
     }
   ],
   "references": []
